@@ -3,12 +3,12 @@ import { Container, Card, Button } from "react-bootstrap";
 
 const LandingPage = () => {
   return (
-    <section>
+    <section className="AboutStyle">
       <Container className="p-3">
-        <Card bg="dark" variant="dark">
+        <Card className="border border-4 rounded-3" bg="dark" variant="dark">
           <Card.Header className="FontColor" as="h1">About Us</Card.Header>
           <Card.Body>
-            <Card.Title className="FontColor" as="h2">Wetzel Investments, LLC</Card.Title>
+            <Card.Title className="FontColor" as="h2">Wetzel Investments, LLC....</Card.Title>
             <Card.Text className="FontColor" as="h4">
               Wetzel Investments, LLC is a locally owned and operated property
               management company. We have invested in multiple rental
