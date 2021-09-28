@@ -14,8 +14,8 @@
 }
 
 .MyBorder {
+  border: 6px solid white;
   border-radius: 3vw;
-  border-width: 6px;
 }
 
 .MyButton:hover,
@@ -24,10 +24,6 @@ a:hover {
   background-color: rgb(37, 51, 4);
   color: rgba(255, 255, 255, 0.733);
   text-decoration: none;
-}
-
-.MyCard {
-  justify-content: space-around;
 }
 
 .AboutStyle {
