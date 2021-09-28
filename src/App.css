@@ -21,9 +21,13 @@
 .MyButton:hover,
 a:hover {
   cursor: pointer;
-  background-color: rgb(65, 61, 61);
+  background-color: rgb(37, 51, 4);
   color: rgba(255, 255, 255, 0.733);
   text-decoration: none;
+}
+
+.MyCard {
+  justify-content: space-around;
 }
 
 .AboutStyle {
@@ -33,4 +37,5 @@ a:hover {
 .FooterStyle {
   height: 19vh;
   color: rgba(255, 255, 255, 0.733);
+  text-align: center;
 }
