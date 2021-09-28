@@ -4,7 +4,7 @@ const LandingPage = () => {
 
     return (
         <div>
-
+            <header>Wetzel Investments, LLC</header>
         </div>
     )
 }
