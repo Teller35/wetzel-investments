@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="FooterStyle">
-      <div className="align-text-bottom">
+      <div className="Footer">
         &copy;2021 by{" "}
         <a className="FontColor" href="https://github.com/Teller35" target="_blank" rel="noreferrer">
           Teller Wetzel

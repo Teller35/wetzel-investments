@@ -31,7 +31,10 @@ a:hover {
 }
 
 .FooterStyle {
-  height: 19vh;
   color: rgba(255, 255, 255, 0.733);
   text-align: center;
+}
+
+.Footer {
+  padding-top: 7vw;
 }
