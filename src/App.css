@@ -33,6 +33,7 @@ a:hover {
 .FooterStyle {
   color: rgba(255, 255, 255, 0.733);
   text-align: center;
+  background: rgba(135, 206, 235, 0.6);
 }
 
 .Footer {
@@ -40,12 +41,13 @@ a:hover {
 }
 
 .FormBorder {
+  background: rgba(135, 206, 235, 0.6);
   border: 2px groove white;
   border-radius: 1vw;
 }
 
 .FormCenter {
-  display: flex;;
+  display: flex;
   justify-content: center;
   margin: 3vw;
 }
@@ -59,19 +61,27 @@ a:hover {
   border-radius: 3vw;
 }
 
+.FormSection h1 {
+  background: rgba(135, 206, 235, 0.6);
+  border: 6px solid white;
+  border-radius: 1vw;
+}
+
 .FormStyle {
-  display: flex;;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .FormDiv {
+  background: rgba(135, 206, 235, 0.6);
   padding: 5px;
   display: flex;
   justify-content: center;
 }
 
-.FormDiv input, textarea {
+.FormDiv input,
+textarea {
   border: 2px groove white;
   border-radius: 1vw;
   background: white;

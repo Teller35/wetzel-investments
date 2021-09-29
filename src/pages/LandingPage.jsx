@@ -22,7 +22,7 @@ const LandingPage = () => {
               inquires place feel free to reach out us.
             </Card.Text>
             <Link to="/contact">
-            <button className="MyButton">Contact Us</button>
+            <button className="MyButton float-end">Contact Us</button>
             </Link>
           </Card.Body>
         </Card>

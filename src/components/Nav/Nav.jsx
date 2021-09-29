@@ -6,7 +6,7 @@ const MyNavBar = () => {
         <header>
             <Navbar bg="dark" variant="dark">
                 <Container className="border border-3 rounded-3">
-                    <Navbar.Brand href="/" className="fs-1">Wetzel Investments, LLC</Navbar.Brand>
+                    <Navbar.Brand className="fs-1">Wetzel Investments, LLC</Navbar.Brand>
                     <Nav className="justify-content-end">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/">Payment</Nav.Link>
