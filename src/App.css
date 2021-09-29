@@ -59,16 +59,14 @@ a:hover {
 .FormSection {
   background: rgba(135, 206, 235, 0.6);
   box-shadow: 0 0 20px rgb(135, 206, 235);
-  border: 6px solid white;
   width: 40%;
   padding: 2vw;
   border-radius: 3vw;
 }
 
 .FormSection h1 {
-  background: rgba(135, 206, 235, 0.6);
-  border: 6px solid white;
-  border-radius: 1vw;
+  background-blend-mode: color;
+  height: 6vw;
 }
 
 .FormStyle {
@@ -97,6 +95,10 @@ textarea {
   width: 60%;
 }
 
-.MyModal {
+.ModalStyle {
   background: rgba(135, 206, 235, 0.6);
 }
+
+/* .MyModal {
+  background: rgba(135, 206, 235, 0.6);
+} */

@@ -41,11 +41,13 @@ const MainForm = () => {
       <h1 className="FontColor p-3 text-center">Maintenance Request</h1>
       <section className="FormCenter">
         <div className="FormSection">
-          <h1 className="text-center">Oh no what is the problem?</h1>
           <form
             onSubmit={handleFormSubmit}
             className="request_form_class FormStyle"
           >
+            <h1 className="text-center FormDiv">
+              Oh no what is the problem? Fill out form below!
+            </h1>
             <div className="FormDiv">
               <input
                 type="text"
