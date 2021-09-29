@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Card, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { Container, Card } from "react-bootstrap";
 
 const LandingPage = () => {
   return (
@@ -20,7 +21,9 @@ const LandingPage = () => {
               look forward to continuing our success. If you have any further
               inquires place feel free to reach out us.
             </Card.Text>
-            <button className="MyButton" href="/">Contact Us</button>
+            <Link to="/contact">
+            <button className="MyButton">Contact Us</button>
+            </Link>
           </Card.Body>
         </Card>
       </Container>

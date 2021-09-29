@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, CardGroup, Card } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 import MailBox from "../assets/mailbox-logo.png";
 import Phone from "../assets/phone-logo.png";
 import Email from "../assets/email-logo.png";
