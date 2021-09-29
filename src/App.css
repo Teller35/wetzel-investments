@@ -30,6 +30,10 @@ a:hover {
   height: 70vh;
 }
 
+.PayStyle {
+  height: 59vh;
+}
+
 .FooterStyle {
   color: rgba(255, 255, 255, 0.733);
   text-align: center;

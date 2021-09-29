@@ -9,7 +9,7 @@ const MyNavBar = () => {
                     <Navbar.Brand className="fs-1">Wetzel Investments, LLC</Navbar.Brand>
                     <Nav className="justify-content-end">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/">Payment</Nav.Link>
+                        <Nav.Link href="/payment">Payment</Nav.Link>
                         <Nav.Link href="/maintenance">Maintenance Request</Nav.Link>
                         <Nav.Link href="/contact">Contact</Nav.Link>
                     </Nav>
