@@ -96,3 +96,7 @@ textarea {
 textarea {
   width: 60%;
 }
+
+.MyModal {
+  background: rgba(135, 206, 235, 0.6);
+}
