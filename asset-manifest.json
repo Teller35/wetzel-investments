@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wetzel-investments/static/css/main.92f6f0dd.chunk.css",
+    "main.js": "/wetzel-investments/static/js/main.84f8f8c5.chunk.js",
+    "main.js.map": "/wetzel-investments/static/js/main.84f8f8c5.chunk.js.map",
+    "runtime-main.js": "/wetzel-investments/static/js/runtime-main.bc5d3743.js",
+    "runtime-main.js.map": "/wetzel-investments/static/js/runtime-main.bc5d3743.js.map",
+    "static/css/2.f2512455.chunk.css": "/wetzel-investments/static/css/2.f2512455.chunk.css",
+    "static/js/2.995365dd.chunk.js": "/wetzel-investments/static/js/2.995365dd.chunk.js",
+    "static/js/2.995365dd.chunk.js.map": "/wetzel-investments/static/js/2.995365dd.chunk.js.map",
+    "index.html": "/wetzel-investments/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/wetzel-investments/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.92f6f0dd.chunk.css.map": "/wetzel-investments/static/css/main.92f6f0dd.chunk.css.map",
+    "static/js/2.995365dd.chunk.js.LICENSE.txt": "/wetzel-investments/static/js/2.995365dd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc5d3743.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.995365dd.chunk.js",
+    "static/css/main.92f6f0dd.chunk.css",
+    "static/js/main.84f8f8c5.chunk.js"
+  ]
+}
