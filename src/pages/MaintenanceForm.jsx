@@ -16,7 +16,6 @@ const MainForm = () => {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    // console.log(formState);
     emailjs
       .sendForm(
         "service_ceojbdc",
@@ -38,11 +37,11 @@ const MainForm = () => {
   };
 
   return (
-    <section>
-      <div>
-        <h1>Oh no what is the problem?</h1>
-        <form onSubmit={handleFormSubmit} className="request_form_class">
-          <div>
+    <section className="FormCenter">
+      <div className="FormSection">
+        <h1 className="FontColor FormBorder">Oh no what is the problem?</h1>
+        <form onSubmit={handleFormSubmit} className="request_form_class FormStyle FormBorder">
+          <div className="FormDiv">
             <input
               type="text"
               name="name"
@@ -52,7 +51,7 @@ const MainForm = () => {
               value={formState.name}
             />
           </div>
-          <div>
+          <div className="FormDiv">
             <input
               type="text"
               name="address"
@@ -62,7 +61,7 @@ const MainForm = () => {
               value={formState.address}
             />
           </div>
-          <div>
+          <div className="FormDiv">
             <input
               type="text"
               name="email"
@@ -72,11 +71,11 @@ const MainForm = () => {
               value={formState.email}
             />
           </div>
-          <div>
-            <input
+          <div className="FormDiv">
+            <textarea
               type="text"
               name="message"
-              size="30"
+              rows="4"
               placeholder="What is the trouble?"
               onChange={handleInputChange}
               value={formState.message}

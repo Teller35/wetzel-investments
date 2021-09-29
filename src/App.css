@@ -38,3 +38,47 @@ a:hover {
 .Footer {
   padding-top: 7vw;
 }
+
+.FormBorder {
+  border: 2px groove white;
+  border-radius: 1vw;
+}
+
+.FormCenter {
+  display: flex;;
+  justify-content: center;
+  margin: 3vw;
+}
+
+.FormSection {
+  background: rgba(135, 206, 235, 0.6);
+  box-shadow: 0 0 20px rgb(135, 206, 235);
+  border: 6px solid white;
+  width: 40%;
+  padding: 2vw;
+  border-radius: 3vw;
+}
+
+.FormStyle {
+  display: flex;;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.FormDiv {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.FormDiv input, textarea {
+  border: 2px groove white;
+  border-radius: 1vw;
+  background: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+textarea {
+  width: 60%;
+}
