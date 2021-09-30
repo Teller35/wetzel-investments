@@ -1,15 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Container, Card } from "react-bootstrap";
 
-const LandingPage = () => {
+const LandingPage = (props) => {
+  const { setPaymentSelected } = props;
+  const { setMaintenanceSelected } = props;
+  const { setContactSelected } = props;
+
   return (
     <section className="AboutStyle">
       <Container className="p-3">
         <Card className="border border-4 rounded-3" bg="dark" variant="dark">
-          <Card.Header className="FontColor" as="h1">About Us</Card.Header>
+          <Card.Header className="FontColor" as="h1">
+            About Us
+          </Card.Header>
           <Card.Body>
-            <Card.Title className="FontColor" as="h2">Wetzel Investments, LLC....</Card.Title>
+            <Card.Title className="FontColor" as="h2">
+              Wetzel Investments, LLC....
+            </Card.Title>
             <Card.Text className="FontColor" as="h4">
               Wetzel Investments, LLC is a locally owned and operated property
               management company. We have invested in multiple rental
@@ -21,9 +28,16 @@ const LandingPage = () => {
               look forward to continuing our success. If you have any further
               inquires place feel free to reach out us.
             </Card.Text>
-            <Link to="/contact">
-            <button className="MyButton float-end">Contact Us</button>
-            </Link>
+            <button
+              className="MyButton float-end"
+              onClick={() => {
+                setContactSelected(true);
+                setMaintenanceSelected(false);
+                setPaymentSelected(false);
+              }}
+            >
+              Contact Us
+            </button>
           </Card.Body>
         </Card>
       </Container>

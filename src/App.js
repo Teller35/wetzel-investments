@@ -1,27 +1,47 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React, { useState } from "react";
 import Nav from "./components/Nav";
 import LandingPage from "./pages/LandingPage";
 import Payment from "./pages/Payment";
 import MainForm from "./pages/MaintenanceForm";
 import ContactForm from "./pages/Contact";
 import Footer from "./components/Footer";
-import './App.css';
+import "./App.css";
 
 function App() {
+  const [paymentSelected, setPaymentSelected] = useState(false);
+  const [maintenanceSelected, setMaintenanceSelected] = useState(false);
+  const [contactSelected, setContactSelected] = useState(false);
+
   return (
-    <Router>
-    <div>
-      <Nav />
-      <Switch>
-        <Route exact path="/" component={LandingPage}/>
-        <Route exact path="/payment" component={Payment}/>
-        <Route exact path="/contact" component={ContactForm}/>
-        <Route exact path="/maintenance" component={MainForm}/>
-      </Switch>
+    <section>
+      <Nav
+        paymentSelected={paymentSelected}
+        setPaymentSelected={setPaymentSelected}
+        maintenanceSelected={maintenanceSelected}
+        setMaintenanceSelected={setMaintenanceSelected}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      />
+      <main>
+        {paymentSelected ? (
+          <Payment />
+        ) : maintenanceSelected ? (
+          <MainForm />
+        ) : contactSelected ? (
+          <ContactForm />
+        ) : (
+          <LandingPage
+            paymentSelected={paymentSelected}
+            setPaymentSelected={setPaymentSelected}
+            maintenanceSelected={maintenanceSelected}
+            setMaintenanceSelected={setMaintenanceSelected}
+            contactSelected={contactSelected}
+            setContactSelected={setContactSelected}
+          />
+        )}
+      </main>
       <Footer />
-    </div>
-    </Router>
+    </section>
   );
 }
 

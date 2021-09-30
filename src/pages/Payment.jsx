@@ -11,7 +11,12 @@ const Payment = () => {
   const MyModal = () => {
     return (
       <>
-        <Modal show={show} onHide={handleClose} backdrop="static" className="ModalStyle">
+        <Modal
+          show={show}
+          onHide={handleClose}
+          backdrop="static"
+          className="ModalStyle"
+        >
           <PaymentForm handleClose={handleClose} />
         </Modal>
       </>
