@@ -30,7 +30,14 @@ function App() {
         ) : contactSelected ? (
           <ContactForm />
         ) : (
-          <LandingPage />
+          <LandingPage
+            paymentSelected={paymentSelected}
+            setPaymentSelected={setPaymentSelected}
+            maintenanceSelected={maintenanceSelected}
+            setMaintenanceSelected={setMaintenanceSelected}
+            contactSelected={contactSelected}
+            setContactSelected={setContactSelected}
+          />
         )}
       </main>
       <Footer />

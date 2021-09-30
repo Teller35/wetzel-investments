@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Card } from "react-bootstrap";
 
 const LandingPage = (props) => {
@@ -34,7 +34,7 @@ const LandingPage = (props) => {
                 setContactSelected(true);
                 setMaintenanceSelected(false);
                 setPaymentSelected(false);
-            }}
+              }}
             >
               Contact Us
             </button>
