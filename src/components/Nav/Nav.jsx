@@ -2,9 +2,9 @@ import React from "react";
 import { Nav, Container, Navbar } from "react-bootstrap";
 
 const MyNavBar = (props) => {
-  const { paymentSelected, setPaymentSelected } = props;
-  const { maintenanceSelected, setMaintenanceSelected } = props;
-  const { contactSelected, setContactSelected } = props;
+  const { setPaymentSelected } = props;
+  const { setMaintenanceSelected } = props;
+  const { setContactSelected } = props;
 
   return (
     <header>

@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Card } from "react-bootstrap";
 
 const LandingPage = (props) => {
-  const { paymentSelected, setPaymentSelected } = props;
-  const { maintenanceSelected, setMaintenanceSelected } = props;
-  const { contactSelected, setContactSelected } = props;
+  const { setPaymentSelected } = props;
+  const { setMaintenanceSelected } = props;
+  const { setContactSelected } = props;
 
   return (
     <section className="AboutStyle">
